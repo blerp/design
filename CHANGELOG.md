@@ -7,3 +7,7 @@
 # Version 0.0.2
 
 - Make sure require exports work for main package
+
+# Version 0.0.3
+
+- Remove AllPackages exports
