@@ -1,3 +1,5 @@
-import * as AllPackages from "./preIndex";
+import * as AllPackages from "./allPackageImports";
 
-export default AllPackages;
+module.exports = {
+    AllPackages
+}

@@ -12,6 +12,7 @@
     "build": "webpack --config webpack.config.js",
     "test": "jest",
     "build:branding": "webpack --config branding.config.js && node dist/branding.js",
+    "build:components": "webpack --config components.config.js && node dist/components.js",
     "precommit": "lint-staged",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "semantic-release": "semantic-release"
