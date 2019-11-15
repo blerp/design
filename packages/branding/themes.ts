@@ -1,7 +1,7 @@
 import Colors from "./colors";
 import UIColors from "./ui-colors";
 
-export const lightTheme = {
+export const lightThemeV1 = {
     pandaPink: '#FE295C',
     pandaTeal: '#FE295C',
     pandaNewTeal: '#49bea0',
@@ -62,7 +62,7 @@ export const lightTheme = {
     bitsFiveIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/Red%20bits%20icon%20white%20stroke.svg",
 };
 
-export const darkTheme = {
+export const darkThemeV1 = {
     pandaPink: '#FE295C',
     pandaTeal: '#FE295C',
     pandaNewTeal: '#49bea0',
@@ -124,6 +124,63 @@ export const darkTheme = {
 };
 
 const mainTheme = {
+    pandaPink: '#FE295C',
+    pandaTeal: '#FE295C',
+    pandaNewTeal: '#49bea0',
+    darkTeal: '#058063',
+    whiteText: '#FFFFFF',
+    invertFlyoutBackground: '#170D11',
+    flyoutBackground: '#FFFFFF',
+    lighterBackground: '#F8F8F8',
+    defaultBackground: '#F3F3F3',
+    lighterGray: '#BDBDBB',
+    iconsActive: '#21000C',
+    iconsInActive: '#47463F',
+    headerText: '#21000C',
+    disabledText: '#BEBEBC',
+    lightGray: '#BEBEBC',
+    blastZone: '#E1E1E1',
+    orangeStatus: '#ff785b',
+    darkRedStatus: '#dd1243',
+    borderColor: '#bebeb9',
+    inputBorderColor: '#bebeb9',
+    togglerBackground: '#A04949',
+    secondaryText: '#47463F',
+    secondarySubtitleText: '#707070',
+    biteGray: '#707070',
+    secondaryGray: '#706F6B',
+    placeholderText: '#BFBFBA',
+    activeText: '#21000C',
+    primaryText: '#FFFFFF',
+    bodyText: '#21000C',
+    darkBackground: '#666',
+    statusColor: '#DD1243',
+    actionBackground: '#E6E6E6',
+    focusState: '#27AAFF',
+    focusOutline: '#3580B1',
+    darkBlue: '#3580B1',
+    headerColor: '#170D11',
+    headerBackground: '#47463F',
+    slidePurple: '#262261',
+    lightCloseButton: "https://storage.googleapis.com/blerp-public-images/twitch/white_close_button.svg",
+    closeIcon: "https://storage.googleapis.com/blerp-public-images/twitch/dark-close-icon.svg",
+    bitCostIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/active%20costLightMode.svg",
+    whiteCheckMarkIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/checkmark.svg",
+    dgRightArrow: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Arrows/Chevron_DarkGrey_Right.svg",
+    dgDownArrow: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Arrows/Chevron_DarkGrey_Down.svg",
+    dgUpArrow: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Arrows/Chevron_DarkGrey_Up.svg",
+    dgLeftArrow: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Arrows/Chevron_DarkGrey_Left.svg",
+    subStarIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/active%20subLightMode.svg",
+    subOneIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/greySubPlusBitsIconWhite.svg",
+    subTwoIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/PurpleSubPlusBitsIconWhite.svg",
+    subThreeIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/MintSubPlusBitsIconWhite.svg",
+    subFourIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/BlueSubPlusBitsIconWhite.svg",
+    subFiveIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/RedSubPlusBitsIconWhite.svg",
+    bitsOneIcon:"https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/grey%20bits%20icon%20white%20stroke.svg",
+    bitsTwoIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/Purple%20bits%20icon%20white%20stroke.svg",
+    bitsThreeIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/Mint%20bits%20icon%20white%20stroke-2.svg",
+    bitsFourIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/Blue%20bits%20icon%20white%20stroke.svg",
+    bitsFiveIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/Red%20bits%20icon%20white%20stroke.svg",
     mainColor: Colors.ibisRed,
     circleIconButtonBlue: Colors.starling,
     circleIconButtonActive: Colors.white,
@@ -139,8 +196,8 @@ const mainTheme = {
 
 const Themes = {
     mainTheme,
-    lightTheme,
-    darkTheme
+    lightThemeV1,
+    darkThemeV1
 }
 
 export default Themes;
