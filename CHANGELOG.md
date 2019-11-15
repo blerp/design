@@ -11,3 +11,8 @@
 # Version 0.0.3
 
 - Remove AllPackages exports
+
+# Version 0.0.4
+
+- Seperated inner packages to top level
+- Differentiated Colors and UI Colors
