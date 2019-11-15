@@ -18,3 +18,6 @@
 
 # Version 0.0.6
 - New Yarn Scripts
+
+# Version 0.0.7
+- Clueless change haha
