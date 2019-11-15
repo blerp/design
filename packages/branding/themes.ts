@@ -1,3 +1,5 @@
+import Colors from "./colors";
+import UIColors from "./ui-colors";
 
 export const lightTheme = {
     pandaPink: '#FE295C',
@@ -121,7 +123,22 @@ export const darkTheme = {
     bitsFiveIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/Red%20bits%20icon%20grey%20stroke.svg",
 };
 
+const mainTheme = {
+    mainColor: Colors.ibisRed,
+    circleIconButtonBlue: Colors.starling,
+    circleIconButtonActive: Colors.white,
+    circleIconButtonHover: Colors.darkGray,
+    seaTextColor: Colors.seafoam,
+    darkText: Colors.notBlack,
+    lightText: Colors.white,
+    secondaryButton: Colors.white,
+    secondaryButtonActive: Colors.darkGray,
+    secondaryButtonHover: Colors.gray,
+    searchBarBackground: Colors.waxWing
+}
+
 const Themes = {
+    mainTheme,
     lightTheme,
     darkTheme
 }

@@ -1,43 +1,15 @@
 const Colors = {
-    pandaPink: '#FE295C',
-    pandaTeal: '#FE295C',
-    pandaNewTeal: '#49bea0',
-    darkTeal: '#058063',
-    whiteText: '#FFFFFF',
-    invertFlyoutBackground: '#170D11',
-    flyoutBackground: '#FFFFFF',
-    lighterBackground: '#F8F8F8',
-    defaultBackground: '#F3F3F3',
-    lighterGray: '#BDBDBB',
-    iconsActive: '#21000C',
-    iconsInActive: '#47463F',
-    headerText: '#21000C',
-    disabledText: '#BEBEBC',
-    lightGray: '#BEBEBC',
-    blastZone: '#E1E1E1',
-    orangeStatus: '#ff785b',
-    darkRedStatus: '#dd1243',
-    borderColor: '#bebeb9',
-    inputBorderColor: '#bebeb9',
-    togglerBackground: '#A04949',
-    secondaryText: '#47463F',
-    secondarySubtitleText: '#707070',
-    biteGray: '#707070',
-    secondaryGray: '#706F6B',
-    placeholderText: '#BFBFBA',
-    activeText: '#21000C',
-    primaryText: '#FFFFFF',
-    bodyText: '#21000C',
-    darkText: '#21000C',
-    darkBackground: '#666',
-    statusColor: '#DD1243',
-    actionBackground: '#E6E6E6',
-    focusState: '#27AAFF',
-    focusOutline: '#3580B1',
-    darkBlue: '#3580B1',
-    headerColor: '#170D11',
-    headerBackground: '#47463F',
-    slidePurple: '#262261'
+    ibisRed: '#FE295C', // rgba(254,41,92, 1)
+    waxWing: '#F3F3F3', // rgba(243,243,243, 1)
+    notBlack: '#21000C', // rgba(23,13,17, 1)
+    starling: '#391881', // rgba(57,24,129, 1)
+    seafoam: '#0FEBC5', // rgba(15,235,197, 1)
+    buntingBlue: '#27AAFF', // rgba(39,170,255, 1)
+    popNYellow: '#FFD400', // rgba(255,212,0, 1)
+    white: '#FFFFFF', // rgba(255,255,255, 1)
+    darkGray: '#BEBEBC', // rgba(190,190,188, 1)
+    gray: '#47463F' // rgba(71,70,63, 1)
 }
+
 
 export default Colors;
