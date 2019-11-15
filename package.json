@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "jest",
-    "publish": "npm run build && npm public --access=public",
+    "publish": "npm run build && npm publish --access=public",
     "build": "webpack --config webpack.config.js",
     "build:branding": "webpack --config branding.config.js",
     "precommit": "lint-staged",
