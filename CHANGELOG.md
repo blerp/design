@@ -16,3 +16,7 @@
 
 - Seperated inner packages to top level
 - Differentiated Colors and UI Colors
+
+# Version 0.0.5
+
+- Backward compadibility for themes
