@@ -191,7 +191,8 @@ const mainTheme = {
     secondaryButton: Colors.white,
     secondaryButtonActive: Colors.darkGray,
     secondaryButtonHover: Colors.gray,
-    searchBarBackground: Colors.waxWing
+    searchBarBackground: Colors.waxWing,
+    ...Colors
 }
 
 const Themes = {
