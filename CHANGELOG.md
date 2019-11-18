@@ -24,3 +24,6 @@
 
 # Version 0.0.8
 - Add all new colors to themes
+
+# Version 0.0.9
+- Brighter starling
