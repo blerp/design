@@ -30,3 +30,6 @@
 
 # Version 0.0.10
 - All new colors
+
+# Version 0.0.11
+- Actually build it
