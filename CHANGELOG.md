@@ -27,3 +27,6 @@
 
 # Version 0.0.9
 - Brighter starling
+
+# Version 0.0.10
+- All new colors
