@@ -60,6 +60,7 @@ export const lightThemeV1 = {
     bitsThreeIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/Mint%20bits%20icon%20white%20stroke-2.svg",
     bitsFourIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/Blue%20bits%20icon%20white%20stroke.svg",
     bitsFiveIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/Red%20bits%20icon%20white%20stroke.svg",
+    ...Colors
 };
 
 export const darkThemeV1 = {
@@ -121,6 +122,7 @@ export const darkThemeV1 = {
     bitsThreeIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/Mint%20bits%20icon%20white%20stroke-1.svg",
     bitsFourIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/Blue%20bits%20icon%20grey%20stroke.svg",
     bitsFiveIcon: "https://storage.googleapis.com/blerp_products/Twitch/Assets/Variable%20Pricing/Red%20bits%20icon%20grey%20stroke.svg",
+    ...Colors
 };
 
 const mainTheme = {
